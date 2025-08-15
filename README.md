@@ -243,15 +243,15 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   width: 100vw; height: 100vh; overflow: auto; background: rgba(0,0,0,0.9);
 }
 .modal-content {margin:auto;display:block;max-width:96vw;max-height:80vh;border-radius:10px;box-shadow:0 0 16px #222;}
-.close {position:absolute;top:30px;right:40px;color:#fff;font-size:40px;font-weight:bold;cursor:pointer;}
+.close {position:absolute;top:50px;right:50px;color:#fff;font-size:40px;font-weight:bold;cursor:pointer;}
 .close:hover {color:#ccc;}
 @keyframes shake {0%{transform: rotate(0deg);}25%{transform: rotate(10deg);}50%{transform: rotate(-10deg);}75%{transform: rotate(10deg);}100%{transform: rotate(0deg);}}
 @media (max-width: 720px) {
   .product {width: 95%;}
   #cart-panel {width: 95vw; left: 2vw;}
   .theme-switcher {width: 95vw; left: 2vw; transform: none;}
-  .modal-content {max-width: 100vw; max-height: 60vh;}
-  .close {top: 15px; right: 20px; font-size: 32px;}
+  .modal-content {max-width: 100vw; max-height: 90vh;}
+  .close {top: 50px; right: 50px; font-size: 32px;}
 }
 body.dark {
   --bg: #181a20;
