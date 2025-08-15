@@ -251,9 +251,9 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 }
 .modal-content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 75%;
+  left: 75%;
+  transform: translate(-75%, -75%);
   max-width: 100vw;
   max-height: 90vh;
   object-fit: contain;
@@ -265,8 +265,8 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 }
 .close {
   position: absolute;
-  top: 50px;
-  right: 50px;
+  top: 75px;
+  right: 75px;
   color: #fff;
   font-size: 40px;
   font-weight: bold;
@@ -290,9 +290,9 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   .modal-content {
     max-width: 100vw;
     max-height: 70vh;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 75%;
+    transform: translate(-75%, -75%);
   }
   .close {top: 20px; right: 20px; font-size: 32px;}
 }
