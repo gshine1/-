@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -97,20 +97,20 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   margin-top: 1em;
 }
 .product {
+  width: 280px; /* Enlarges the product card for bigger images */
   background: var(--cart-bg);
   color: var(--cart-text);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   border: 1px solid #ddd;
-  width: 220px;
   padding: 1em;
   text-align: center;
   transition: background 0.3s, color 0.3s;
   position: relative;
 }
 .product img {
-  width: 80%;
-  height: 120px;
+  width: 120%;   /* Use full card width */
+  height: 220px; /* Increased height for bigger images */
   object-fit: contain;
   margin-bottom: 1em;
   border-radius: 6px;
@@ -294,7 +294,7 @@ body.dark {
 <div class="product-list-container">
   <div class="products" id="product-list">
     <!-- Use unique data-id for each product -->
-    <div class="product" data-id="pipe4gb" data-category="Plumbing" data-name="pvc pipe4">
+    <div class="product" data-id="pipe4gb" data-category="Plumbing" data-name="Waste Pipe 4&quot; (GB) Heavy">
       <img src="https://raw.githubusercontent.com/Amuya12/bannerimage/main/WASTE_PIPE_4__(GB)_HEAVY%5B1%5D.jpeg" alt="Waste Pipe 4&quot;" onclick="openModal(this)">
       <div>Waste Pipe 4" (GB) Heavy</div>
       <div class="price">KSh 1200</div>
