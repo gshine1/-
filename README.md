@@ -239,20 +239,63 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   background: #222;
 }
 .modal {
-  display: none; position: fixed; z-index: 9999; left: 0; top: 0;
-  width: 100vw; height: 100vh; overflow: auto; background: rgba(0,0,0,0.9);
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0,0,0,0.9);
 }
-.modal-content {margin:auto;display:block;max-width:96vw;max-height:80vh;border-radius:10px;box-shadow:0 0 16px #222;}
-.close {position:absolute;top:50px;right:50px;color:#fff;font-size:40px;font-weight:bold;cursor:pointer;}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 90vh;
+  object-fit: contain;
+  background: #000;
+  margin: 0;
+  display: block;
+  border-radius: 0;
+  box-shadow: none;
+}
+.close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
 .close:hover {color:#ccc;}
-@keyframes shake {0%{transform: rotate(0deg);}25%{transform: rotate(10deg);}50%{transform: rotate(-10deg);}75%{transform: rotate(10deg);}100%{transform: rotate(0deg);}}
+
+@keyframes shake {
+  0%{transform: rotate(0deg);}
+  25%{transform: rotate(10deg);}
+  50%{transform: rotate(-10deg);}
+  75%{transform: rotate(10deg);}
+  100%{transform: rotate(0deg);}
+}
+
 @media (max-width: 720px) {
   .product {width: 95%;}
   #cart-panel {width: 95vw; left: 2vw;}
   .theme-switcher {width: 95vw; left: 2vw; transform: none;}
-  .modal-content {max-width: 100vw; max-height: 90vh;}
-  .close {top: 50px; right: 50px; font-size: 32px;}
+  .modal-content {
+    max-width: 100vw;
+    max-height: 70vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .close {top: 20px; right: 20px; font-size: 32px;}
 }
+
 body.dark {
   --bg: #181a20;
   --text: #f6f6f6;
