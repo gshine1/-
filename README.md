@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -293,107 +293,108 @@ body.dark {
 <!-- PRODUCT LIST -->
 <div class="product-list-container">
   <div class="products" id="product-list">
-    <div class="product" data-category="Plumbing" data-name="Waste Pipe 4&quot; (GB) Heavy">
+    <!-- Use unique data-id for each product -->
+    <div class="product" data-id="pipe4gb" data-category="Plumbing" data-name="Waste Pipe 4&quot; (GB) Heavy">
       <img src="https://raw.githubusercontent.com/Amuya12/bannerimage/main/WASTE_PIPE_4__(GB)_HEAVY%5B1%5D.jpeg" alt="Waste Pipe 4&quot;" onclick="openModal(this)">
       <div>Waste Pipe 4" (GB) Heavy</div>
       <div class="price">KSh 1200</div>
-      <button type="button" class="cart" onclick="orderNow('Waste Pipe 4&quot; (GB) Heavy')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('pipe4gb')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Plumbing" data-name="Brass Tap">
+    <div class="product" data-id="brasstap" data-category="Plumbing" data-name="Brass Tap">
       <img src="Lincy-brass-lock-900-300x300.jpg" alt="Brass Tap" onclick="openModal(this)">
       <div>Brass Tap</div>
       <div class="price">KSh 500</div>
-      <button type="button" class="cart" onclick="orderNow('Brass Tap')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('brasstap')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Taps" data-name="Mixer Tap">
+    <div class="product" data-id="mixertap" data-category="Taps" data-name="Mixer Tap">
       <img src="https://i.imgur.com/zZ7GvKX.jpeg" alt="Mixer Tap" onclick="openModal(this)">
       <div>Mixer Tap</div>
       <div class="price">KSh 1500</div>
-      <button type="button" class="cart" onclick="orderNow('Mixer Tap')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('mixertap')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Taps" data-name="Sink Tap">
+    <div class="product" data-id="sinktap" data-category="Taps" data-name="Sink Tap">
       <img src="sink.jpg" alt="Sink Tap" onclick="openModal(this)">
       <div>Sink Tap</div>
       <div class="price">KSh 800</div>
-      <button type="button" class="cart" onclick="orderNow('Sink Tap')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('sinktap')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Locks & Hinges" data-name="Padlock">
+    <div class="product" data-id="padlock" data-category="Locks & Hinges" data-name="Padlock">
       <img src="https://i.imgur.com/TK1Bfjq.jpeg" alt="Padlock" onclick="openModal(this)">
       <div>Padlock</div>
       <div class="price">KSh 600</div>
-      <button type="button" class="cart" onclick="orderNow('Padlock')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('padlock')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Locks & Hinges" data-name="Door Hinges">
+    <div class="product" data-id="doorhinges" data-category="Locks & Hinges" data-name="Door Hinges">
       <img src="https://i.imgur.com/UG2RL6Q.jpeg" alt="Door Hinges" onclick="openModal(this)">
       <div>Door Hinges</div>
       <div class="price">KSh 400</div>
-      <button type="button" class="cart" onclick="orderNow('Door Hinges')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('doorhinges')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Electrical" data-name="LED Bulb">
+    <div class="product" data-id="ledbulb" data-category="Electrical" data-name="LED Bulb">
       <img src="https://i.imgur.com/FZNRjnp.jpeg" alt="LED Bulb" onclick="openModal(this)">
       <div>LED Bulb</div>
       <div class="price">KSh 250</div>
-      <button type="button" class="cart" onclick="orderNow('LED Bulb')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('ledbulb')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Electrical" data-name="Extension Cable">
+    <div class="product" data-id="extensioncable" data-category="Electrical" data-name="Extension Cable">
       <img src="https://i.imgur.com/E2S5ch6.jpeg" alt="Extension Cable" onclick="openModal(this)">
       <div>Extension Cable</div>
       <div class="price">KSh 1200</div>
-      <button type="button" class="cart" onclick="orderNow('Extension Cable')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('extensioncable')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Tiles" data-name="Floor Tile">
+    <div class="product" data-id="floortile" data-category="Tiles" data-name="Floor Tile">
       <img src="https://i.imgur.com/6rIYm9U.jpeg" alt="Floor Tile" onclick="openModal(this)">
       <div>Floor Tile</div>
       <div class="price">KSh 950</div>
-      <button type="button" class="cart" onclick="orderNow('Floor Tile')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('floortile')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Tiles" data-name="Wall Tile">
+    <div class="product" data-id="walltile" data-category="Tiles" data-name="Wall Tile">
       <img src="https://i.imgur.com/mvS7f4Q.jpeg" alt="Wall Tile" onclick="openModal(this)">
       <div>Wall Tile</div>
       <div class="price">KSh 700</div>
-      <button type="button" class="cart" onclick="orderNow('Wall Tile')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('walltile')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Granite & Marble" data-name="Granite Slab">
+    <div class="product" data-id="graniteslab" data-category="Granite & Marble" data-name="Granite Slab">
       <img src="https://i.imgur.com/tXpmRcd.jpeg" alt="Granite Slab" onclick="openModal(this)">
       <div>Granite Slab</div>
       <div class="price">KSh 5500</div>
-      <button type="button" class="cart" onclick="orderNow('Granite Slab')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('graniteslab')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Granite & Marble" data-name="Marble Slab">
+    <div class="product" data-id="marbleslab" data-category="Granite & Marble" data-name="Marble Slab">
       <img src="https://i.imgur.com/GF6k64n.jpeg" alt="Marble Slab" onclick="openModal(this)">
       <div>Marble Slab</div>
       <div class="price">KSh 6000</div>
-      <button type="button" class="cart" onclick="orderNow('Marble Slab')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('marbleslab')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Gypsum" data-name="Gypsum Board">
+    <div class="product" data-id="gypsumboard" data-category="Gypsum" data-name="Gypsum Board">
       <img src="https://i.imgur.com/gJSpZ0r.jpeg" alt="Gypsum Board" onclick="openModal(this)">
       <div>Gypsum Board</div>
       <div class="price">KSh 1500</div>
-      <button type="button" class="cart" onclick="orderNow('Gypsum Board')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('gypsumboard')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Paints" data-name="White Paint (20L)">
+    <div class="product" data-id="whitepaint20l" data-category="Paints" data-name="White Paint (20L)">
       <img src="https://i.imgur.com/3tX8USy.jpeg" alt="White Paint" onclick="openModal(this)">
       <div>White Paint (20L)</div>
       <div class="price">KSh 3500</div>
-      <button type="button" class="cart" onclick="orderNow('White Paint (20L)')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('whitepaint20l')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Paints" data-name="Blue Paint (20L)">
+    <div class="product" data-id="bluepaint20l" data-category="Paints" data-name="Blue Paint (20L)">
       <img src="https://i.imgur.com/RPZ14Oa.jpeg" alt="Blue Paint" onclick="openModal(this)">
       <div>Blue Paint (20L)</div>
       <div class="price">KSh 3700</div>
-      <button type="button" class="cart" onclick="orderNow('Blue Paint (20L)')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('bluepaint20l')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Tools" data-name="Hammer">
+    <div class="product" data-id="hammer" data-category="Tools" data-name="Hammer">
       <img src="https://i.imgur.com/pCkqHGY.jpeg" alt="Hammer" onclick="openModal(this)">
       <div>Hammer</div>
       <div class="price">KSh 450</div>
-      <button type="button" class="cart" onclick="orderNow('Hammer')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('hammer')">Add to Cart</button>
     </div>
-    <div class="product" data-category="Tools" data-name="Screwdriver Set">
+    <div class="product" data-id="screwdriverset" data-category="Tools" data-name="Screwdriver Set">
       <img src="https://i.imgur.com/R4wbpKN.jpeg" alt="Screwdriver Set" onclick="openModal(this)">
       <div>Screwdriver Set</div>
       <div class="price">KSh 900</div>
-      <button type="button" class="cart" onclick="orderNow('Screwdriver Set')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('screwdriverset')">Add to Cart</button>
     </div>
   </div>
   <!-- Pager Controls -->
@@ -462,7 +463,8 @@ function filterCategory(cat) {
 
 // Sticky search suggestions logic
 const products = Array.from(document.querySelectorAll('.product')).map(prod => ({
-  name: prod.querySelector('div:nth-child(2)').textContent.trim(),
+  id: prod.getAttribute('data-id'),
+  name: prod.getAttribute('data-name'),
   img: prod.querySelector('img').src,
   price: prod.querySelector('.price').textContent.trim(),
   category: prod.getAttribute('data-category')
@@ -477,7 +479,7 @@ searchInput.addEventListener('input', function() {
     const matches = products.filter(p => p.name.toLowerCase().includes(query));
     if (matches.length > 0) {
       suggestionsEl.innerHTML = matches.map(p =>
-        `<li onclick="selectSuggestion('${p.name.replace(/'/g,"\\'")}')">
+        `<li onclick="selectSuggestion('${p.id}')">
           <img src="${p.img}" style="width:22px;height:22px;vertical-align:middle;border-radius:4px;margin-right:6px;">
           <span>${highlightMatch(p.name, query)}</span>
           <span style="float:right;color:#2196f3;font-weight:bold;">${p.price}</span>
@@ -494,7 +496,7 @@ searchInput.addEventListener('input', function() {
   }
 
   document.querySelectorAll('.product').forEach(prod => {
-    const name = prod.querySelector('div:nth-child(2)').textContent.toLowerCase();
+    const name = prod.getAttribute('data-name').toLowerCase();
     prod.style.display = (!query || name.includes(query)) ? "inline-block" : "none";
     prod.querySelectorAll('div').forEach(el => {
       el.innerHTML = el.textContent.replace(new RegExp(query, "gi"), match => `<span class="highlight">${match}</span>`);
@@ -507,12 +509,11 @@ searchInput.addEventListener('blur', function() {
 function highlightMatch(text, query) {
   return text.replace(new RegExp(query, "gi"), match => `<span class="highlight">${match}</span>`);
 }
-function selectSuggestion(name) {
-  searchInput.value = name;
+function selectSuggestion(id) {
+  searchInput.value = products.find(p => p.id === id).name;
   suggestionsEl.style.display = 'none';
   document.querySelectorAll('.product').forEach(prod => {
-    const prodName = prod.querySelector('div:nth-child(2)').textContent;
-    prod.style.display = (prodName === name) ? "inline-block" : "none";
+    prod.style.display = (prod.getAttribute('data-id') === id) ? "inline-block" : "none";
   });
 }
 setInterval(() => {
@@ -540,25 +541,24 @@ document.getElementById('imgModal').onclick = function(e) {
   }
 };
 
-// --- CART FUNCTIONALITY START ---
+// --- CART FUNCTIONALITY WITH STABLE PRODUCT IDs ---
 let cart = [];
 
-function orderNow(productName) {
-  let productEl = null;
-  document.querySelectorAll('.product').forEach(el => {
-    const name = el.querySelector('div:nth-child(2)').textContent.trim();
-    if (name === productName) productEl = el;
-  });
+function orderNow(productId) {
+  let productEl = document.querySelector(`.product[data-id="${productId}"]`);
   if (!productEl) return;
+  const name = productEl.getAttribute('data-name');
   const priceText = productEl.querySelector('.price').textContent.replace(/[^\d]/g, '');
   const price = parseInt(priceText, 10);
 
-  const existing = cart.find(item => item.name === productName);
+  const existing = cart.find(item => item.id === productId);
   if (existing) {
     existing.quantity += 1;
+    existing.name = name; // update to latest name, always
   } else {
     cart.push({
-      name: productName,
+      id: productId,
+      name: name,
       quantity: 1,
       price: price
     });
@@ -575,6 +575,9 @@ function updateCartUI() {
   cartList.innerHTML = '';
   let total = 0;
   cart.forEach((item, index) => {
+    // Display latest name from DOM, so you can freely change product names
+    const productEl = document.querySelector(`.product[data-id="${item.id}"]`);
+    if(productEl) item.name = productEl.getAttribute('data-name');
     const lineTotal = item.quantity * item.price;
     total += lineTotal;
     const li = document.createElement('li');
@@ -582,9 +585,9 @@ function updateCartUI() {
       <div style="flex: 1 1 100%;">${index + 1}. ${item.name}<br>
       Qty: ${item.quantity} × KSh ${item.price} = <strong>KSh ${lineTotal}</strong></div>
       <div class="cart-controls">
-        <button onclick="changeQty('${item.name.replace(/'/g,"\\'")}', 1)">＋</button>
-        <button onclick="changeQty('${item.name.replace(/'/g,"\\'")}', -1)">－</button>
-        <button onclick="removeItem('${item.name.replace(/'/g,"\\'")}')">🗑</button>
+        <button onclick="changeQty('${item.id}', 1)">＋</button>
+        <button onclick="changeQty('${item.id}', -1)">－</button>
+        <button onclick="removeItem('${item.id}')">🗑</button>
       </div>
     `;
     cartList.appendChild(li);
@@ -592,18 +595,18 @@ function updateCartUI() {
   document.getElementById('cart-total').textContent = `KSh ${total}`;
 }
 
-function changeQty(name, delta) {
-  const item = cart.find(i => i.name === name);
+function changeQty(id, delta) {
+  const item = cart.find(i => i.id === id);
   if (!item) return;
   item.quantity += delta;
   if (item.quantity <= 0) {
-    cart = cart.filter(i => i.name !== name);
+    cart = cart.filter(i => i.id !== id);
   }
   updateCartUI();
 }
 
-function removeItem(name) {
-  cart = cart.filter(i => i.name !== name);
+function removeItem(id) {
+  cart = cart.filter(i => i.id !== id);
   updateCartUI();
 }
 
@@ -636,7 +639,6 @@ function checkoutCart() {
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
 }
-// --- CART FUNCTIONALITY END ---
 
 // --- PAGINATION LOGIC ---
 const MAX_ITEMS_PER_PAGE = 20;
