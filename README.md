@@ -109,7 +109,7 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   position: relative;
 }
 .product img {
-  width: 400%;   /* Use full card width */
+  width: 100%;   /* Use full card width */
   height: 220px; /* Increased height for bigger images */
   object-fit: contain;
   margin-bottom: 1em;
@@ -284,6 +284,7 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 
 @media (max-width: 720px) {
   .product {width: 95%;}
+  .product img {height: 160px;}
   #cart-panel {width: 95vw; left: 2vw;}
   .theme-switcher {width: 95vw; left: 2vw; transform: none;}
   .modal-content {
@@ -336,12 +337,11 @@ body.dark {
 <!-- PRODUCT LIST -->
 <div class="product-list-container">
   <div class="products" id="product-list">
-    <!-- Use unique data-id for each product -->
     <div class="product" data-id="6-Hook" data-category="bathroom accessories" data-name="6-Hook">
       <img src="6-Hook.jpg" alt="6-Hook" onclick="openModal(this)">
       <div>6-Hook</div>
       <div class="price">KSh 1200</div>
-      <button type="button" class="cart" onclick="orderNow('pipe4gb')">Add to Cart</button>
+      <button type="button" class="cart" onclick="orderNow('6-Hook')">Add to Cart</button>
     </div>
     <div class="product" data-id="brasstap" data-category="Plumbing" data-name="Brass Tap">
       <img src="Lincy-brass-lock-900-300x300.jpg" alt="Brass Tap" onclick="openModal(this)">
