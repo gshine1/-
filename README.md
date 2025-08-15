@@ -238,18 +238,33 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 .theme-switcher button.active {
   background: #222;
 }
+//* Keep images contained inside product cards */
+.product {
+  position: relative;
+  overflow: hidden; /* Prevents zoom/bounce from spilling out */
+}
+
+/* Keep images contained inside product cards */
+.product {
+  position: relative;
+  overflow: hidden; /* Prevents zoom/bounce from spilling out */
+}
+
 /* Product Image Animations */
 .product img {
   opacity: 0;
-  transform: scale(0.95);
+  transform: scale(0.97);
   animation: fadeInScale 0.5s ease forwards;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  width: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .product img:hover {
-  animation: bounce 0.6s ease;
-  transform: scale(1.05) translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  animation: bounceSoft 0.5s ease;
+  transform: scale(1.03) translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
 }
 
 /* Fade-in & scale on load */
@@ -260,14 +275,15 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   }
 }
 
-/* Bounce effect */
-@keyframes bounce {
-  0%   { transform: scale(1.05) translateY(-5px); }
-  30%  { transform: scale(1.1) translateY(-8px); }
-  50%  { transform: scale(1.05) translateY(-5px); }
-  70%  { transform: scale(1.08) translateY(-7px); }
-  100% { transform: scale(1.05) translateY(-5px); }
+/* Softer bounce effect */
+@keyframes bounceSoft {
+  0%   { transform: scale(1.03) translateY(-3px); }
+  30%  { transform: scale(1.05) translateY(-5px); }
+  50%  { transform: scale(1.03) translateY(-3px); }
+  70%  { transform: scale(1.04) translateY(-4px); }
+  100% { transform: scale(1.03) translateY(-3px); }
 }
+
 /* MODAL IMAGE: 80% of viewport for desktop/tablet */
 .modal {
   display: none;
