@@ -279,7 +279,7 @@ body.dark {
 <!-- CATEGORY FILTERS -->
 <div class="category-filter-container">
   <button class="category-filter active" onclick="filterCategory('All')">All</button>
-  <button class="category-filter" onclick="filterCategory('Plumbing')">Plumbing</button>
+  <button class="category-filter" onclick="filterCategory('bathroom accessories')">bathroom accessories</button>
   <button class="category-filter" onclick="filterCategory('Taps')">Taps</button>
   <button class="category-filter" onclick="filterCategory('Locks & Hinges')">Locks & Hinges</button>
   <button class="category-filter" onclick="filterCategory('Electrical')">Electrical</button>
@@ -294,8 +294,8 @@ body.dark {
 <div class="product-list-container">
   <div class="products" id="product-list">
     <!-- Use unique data-id for each product -->
-    <div class="product" data-id="pipe4gb" data-category="Plumbing" data-name="Waste Pipe 4&quot; (GB) Heavy">
-      <img src="https://raw.githubusercontent.com/Amuya12/bannerimage/main/WASTE_PIPE_4__(GB)_HEAVY%5B1%5D.jpeg" alt="Waste Pipe 4&quot;" onclick="openModal(this)">
+    <div class="product" data-id="pipe4gb" data-category="bathroom accessories" data-name="6-Hook">
+      <img src="6-Hook.jpeg" alt="Waste Pipe 4&quot;" onclick="openModal(this)">
       <div>Waste Pipe 4" (GB) Heavy</div>
       <div class="price">KSh 1200</div>
       <button type="button" class="cart" onclick="orderNow('pipe4gb')">Add to Cart</button>
