@@ -238,6 +238,36 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 .theme-switcher button.active {
   background: #222;
 }
+/* Product Image Animations */
+.product img {
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeInScale 0.5s ease forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product img:hover {
+  animation: bounce 0.6s ease;
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* Fade-in & scale on load */
+@keyframes fadeInScale {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Bounce effect */
+@keyframes bounce {
+  0%   { transform: scale(1.05) translateY(-5px); }
+  30%  { transform: scale(1.1) translateY(-8px); }
+  50%  { transform: scale(1.05) translateY(-5px); }
+  70%  { transform: scale(1.08) translateY(-7px); }
+  100% { transform: scale(1.05) translateY(-5px); }
+}
 /* MODAL IMAGE: 80% of viewport for desktop/tablet */
 .modal {
   display: none;
@@ -787,6 +817,10 @@ document.querySelectorAll('.category-filter').forEach(btn => {
 
 // Show first page on load
 showProductsPage(1);
+<script>
+document.querySelectorAll('.product img').forEach((img, index) => {
+  img.style.animationDelay = `${index * 0.1}s`;
+});
 </script>
 </body>
 </html>
