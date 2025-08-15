@@ -375,13 +375,13 @@ body.dark {
       <button type="button" class="cart" onclick="orderNow('Bathroom accessory chrome')">Add to Cart</button>
     </div>
  <div class="product" data-id="Bathroom Accessory Executive" data-category="bathroom accessories" data-name="Bathroom Accessory Executive">
-      <img src="Bathroom Accessory Executive.jpeg" alt="Bathroom Accessory Executive" onclick="openModal(this)">
+      <img src="Bathroom Accessory Executive.jpg" alt="Bathroom Accessory Executive" onclick="openModal(this)">
       <div>Bathroom Accessory Executive</div>
       <div class="price">KSh 5800</div>
       <button type="button" class="cart" onclick="orderNow('Bathroom Accessory Executive')">Add to Cart</button>
     </div>
  <div class="product" data-id="Bathroom Accessory Small" data-category="bathroom accessories" data-name="Bathroom Accessory Small">
-      <img src="Bathroom Accessory Small.jpeg" alt="Bathroom Accessory Small" onclick="openModal(this)">
+      <img src="Bathroom Accessory Small.jpg" alt="Bathroom Accessory Small" onclick="openModal(this)">
       <div>Bathroom Accessory Small</div>
       <div class="price">KSh 2200</div>
       <button type="button" class="cart" onclick="orderNow('Bathroom Accessory Small')">Add to Cart</button>
