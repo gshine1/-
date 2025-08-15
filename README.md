@@ -109,7 +109,7 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   position: relative;
 }
 .product img {
-  width: 340%;   /* Use full card width */
+  width: 400%;   /* Use full card width */
   height: 220px; /* Increased height for bigger images */
   object-fit: contain;
   margin-bottom: 1em;
