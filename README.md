@@ -295,8 +295,8 @@ body.dark {
   <div class="products" id="product-list">
     <!-- Use unique data-id for each product -->
     <div class="product" data-id="pipe4gb" data-category="bathroom accessories" data-name="6-Hook">
-      <img src="6-Hook.jpeg" alt="6-Hook">
-      <div>Waste Pipe 4" (GB) Heavy</div>
+      <img src="6-Hook.jpg" alt="6-Hook">
+      <div>6-Hook</div>
       <div class="price">KSh 1200</div>
       <button type="button" class="cart" onclick="orderNow('pipe4gb')">Add to Cart</button>
     </div>
