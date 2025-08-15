@@ -358,12 +358,12 @@ body.dark {
     </div>
  <div class="product" data-id="Bathroom accessory big maat black" data-category="bathroom accessories" data-name="Bathroom accessory big maat black">
       <img src="Bathroom accessory big maat black.jpeg" alt="Bathroom accessory big maat black" onclick="openModal(this)">
-      <div>Bathroom accessory big black and gold</div>
+      <div>Bathroom accessory big maat black</div>
       <div class="price">KSh 4800</div>
       <button type="button" class="cart" onclick="orderNow('Bathroom accessory big maat black')">Add to Cart</button>
     </div>
   <div class="product" data-id="Bathroom Accessory Black" data-category="bathroom accessories" data-name="Bathroom Accessory Black">
-      <img src="Bathroom Accessory Black.jpeg" alt="Bathroom Accessory Black" onclick="openModal(this)">
+      <img src="Bathroom Accessory Black.jpg" alt="Bathroom Accessory Black" onclick="openModal(this)">
       <div>Bathroom Accessory Black</div>
       <div class="price">KSh 4200</div>
       <button type="button" class="cart" onclick="orderNow('Bathroom Accessory Black')">Add to Cart</button>
@@ -376,13 +376,13 @@ body.dark {
     </div>
  <div class="product" data-id="Bathroom Accessory Executive" data-category="bathroom accessories" data-name="Bathroom Accessory Executive">
       <img src="Bathroom Accessory Executive.jpeg" alt="Bathroom Accessory Executive" onclick="openModal(this)">
-      <div>Bathroom accessory chrome</div>
+      <div>Bathroom Accessory Executive</div>
       <div class="price">KSh 5800</div>
       <button type="button" class="cart" onclick="orderNow('Bathroom Accessory Executive')">Add to Cart</button>
     </div>
  <div class="product" data-id="Bathroom Accessory Small" data-category="bathroom accessories" data-name="Bathroom Accessory Small">
       <img src="Bathroom Accessory Small.jpeg" alt="Bathroom Accessory Small" onclick="openModal(this)">
-      <div>Bathroom accessory chrome</div>
+      <div>Bathroom Accessory Small</div>
       <div class="price">KSh 2200</div>
       <button type="button" class="cart" onclick="orderNow('Bathroom Accessory Small')">Add to Cart</button>
     </div>  
