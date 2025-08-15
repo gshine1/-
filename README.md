@@ -351,7 +351,7 @@ body.dark {
       <button type="button" class="cart" onclick="orderNow('bathroom accessory')">Add to Cart</button>
     </div>  
  <div class="product" data-id="Bathroom accessory big black and gold" data-category="bathroom accessories" data-name="Bathroom accessory big black and gold">
-      <img src="Bathroom accessory big black and gold.jpg" alt="Bathroom accessory big black and gold" onclick="openModal(this)">
+      <img src="Bathroom accessory big black and gold.jpeg" alt="Bathroom accessory big black and gold" onclick="openModal(this)">
       <div>Bathroom accessory big black and gold</div>
       <div class="price">KSh 4800</div>
       <button type="button" class="cart" onclick="orderNow('bathroom accessory')">Add to Cart</button>
