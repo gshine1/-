@@ -97,7 +97,7 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   margin-top: 1em;
 }
 .product {
-  width: 360px; /* Even wider card for bigger images */
+  width: 360px;
   background: var(--cart-bg);
   color: var(--cart-text);
   border-radius: 8px;
@@ -109,8 +109,8 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   position: relative;
 }
 .product img {
-  width: 160%;   /* Fills the card width */
-  height: 260px; /* Large image height for desktop/tablet */
+  width: 100%;
+  height: 260px;
   object-fit: contain;
   margin-bottom: 1em;
   border-radius: 6px;
@@ -238,6 +238,7 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 .theme-switcher button.active {
   background: #222;
 }
+/* MODAL IMAGE: 80% of viewport for desktop/tablet */
 .modal {
   display: none;
   position: fixed;
@@ -251,11 +252,11 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 }
 .modal-content {
   position: absolute;
-  top: 75%;
-  left: 75%;
-  transform: translate(-75%, -75%);
-  max-width: 100vw;
-  max-height: 90vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80vw;
+  max-height: 80vh;
   object-fit: contain;
   background: #000;
   margin: 0;
@@ -265,8 +266,8 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 }
 .close {
   position: absolute;
-  top: 75px;
-  right: 75px;
+  top: 50px;
+  right: 50px;
   color: #fff;
   font-size: 40px;
   font-weight: bold;
@@ -288,11 +289,11 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   #cart-panel {width: 95vw; left: 2vw;}
   .theme-switcher {width: 95vw; left: 2vw; transform: none;}
   .modal-content {
-    max-width: 100vw;
-    max-height: 70vh;
-    top: 75%;
-    left: 75%;
-    transform: translate(-75%, -75%);
+    max-width: 90vw;
+    max-height: 65vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .close {top: 20px; right: 20px; font-size: 32px;}
 }
