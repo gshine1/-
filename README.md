@@ -97,7 +97,7 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   margin-top: 1em;
 }
 .product {
-  width: 340px; /* Enlarges the product card for bigger images */
+  width: 360px; /* Even wider card for bigger images */
   background: var(--cart-bg);
   color: var(--cart-text);
   border-radius: 8px;
@@ -109,8 +109,8 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   position: relative;
 }
 .product img {
-  width: 100%;   /* Use full card width */
-  height: 220px; /* Increased height for bigger images */
+  width: 100%;   /* Fills the card width */
+  height: 260px; /* Large image height for desktop/tablet */
   object-fit: contain;
   margin-bottom: 1em;
   border-radius: 6px;
@@ -283,8 +283,8 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 }
 
 @media (max-width: 720px) {
-  .product {width: 95%;}
-  .product img {height: 160px;}
+  .product {width: 99vw;}
+  .product img {height: 180px;}
   #cart-panel {width: 95vw; left: 2vw;}
   .theme-switcher {width: 95vw; left: 2vw; transform: none;}
   .modal-content {
