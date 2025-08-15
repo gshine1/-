@@ -341,13 +341,19 @@ body.dark {
     <div class="product" data-id="6-Hook" data-category="bathroom accessories" data-name="Hooks">
       <img src="6-Hook.jpg" alt="6-Hook" onclick="openModal(this)">
       <div>6-Hook</div>
-      <div class="price">KSh 1200</div>
+      <div class="price">KSh 1000</div>
       <button type="button" class="cart" onclick="orderNow('6-Hook')">Add to Cart</button>
     </div>
  <div class="product" data-id="bathroom accessory" data-category="bathroom accessories" data-name="Bathroom Accessory">
       <img src="Bathroom Accessory.jpg" alt="bathroom accessory" onclick="openModal(this)">
       <div>bathroom accessory</div>
       <div class="price">KSh 2500</div>
+      <button type="button" class="cart" onclick="orderNow('bathroom accessory')">Add to Cart</button>
+    </div>  
+ <div class="product" data-id="Bathroom accessory big black and gold" data-category="bathroom accessories" data-name="Bathroom accessory big black and gold">
+      <img src="Bathroom accessory big black and gold.jpg" alt="Bathroom accessory big black and gold" onclick="openModal(this)">
+      <div>Bathroom accessory big black and gold</div>
+      <div class="price">KSh 4800</div>
       <button type="button" class="cart" onclick="orderNow('bathroom accessory')">Add to Cart</button>
     </div>  
 <div class="product" data-id="brasstap" data-category="Plumbing" data-name="Brass Tap">
