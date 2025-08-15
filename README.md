@@ -345,7 +345,7 @@ body.dark {
       <button type="button" class="cart" onclick="orderNow('6-Hook')">Add to Cart</button>
     </div>
  <div class="product" data-id="bathroom accessory" data-category="bathroom accessories" data-name="Bathroom Accessory">
-      <img src="bathroom accessory.jpg" alt="bathroom accessory" onclick="openModal(this)">
+      <img src="Bathroom Accessory.jpg" alt="bathroom accessory" onclick="openModal(this)">
       <div>bathroom accessory</div>
       <div class="price">KSh 2500</div>
       <button type="button" class="cart" onclick="orderNow('bathroom accessory')">Add to Cart</button>
