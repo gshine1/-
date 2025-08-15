@@ -295,7 +295,7 @@ body.dark {
   <div class="products" id="product-list">
     <!-- Use unique data-id for each product -->
     <div class="product" data-id="6-Hook" data-category="bathroom accessories" data-name="6-Hook">
-      <img src="6-Hook.jpg" alt="6-Hook">
+      <img src="6-Hook.jpg" alt="6-Hook" onclick="openModal(this)">
       <div>6-Hook</div>
       <div class="price">KSh 1200</div>
       <button type="button" class="cart" onclick="orderNow('pipe4gb')">Add to Cart</button>
