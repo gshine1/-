@@ -238,52 +238,6 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
 .theme-switcher button.active {
   background: #222;
 }
-//* Keep images contained inside product cards */
-.product {
-  position: relative;
-  overflow: hidden; /* Prevents zoom/bounce from spilling out */
-}
-
-/* Keep images contained inside product cards */
-.product {
-  position: relative;
-  overflow: hidden; /* Prevents zoom/bounce from spilling out */
-}
-
-/* Product Image Animations */
-.product img {
-  opacity: 0;
-  transform: scale(0.97);
-  animation: fadeInScale 0.5s ease forwards;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  width: 100%;
-  display: block;
-  object-fit: cover;
-}
-
-.product img:hover {
-  animation: bounceSoft 0.5s ease;
-  transform: scale(1.03) translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
-}
-
-/* Fade-in & scale on load */
-@keyframes fadeInScale {
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* Softer bounce effect */
-@keyframes bounceSoft {
-  0%   { transform: scale(1.03) translateY(-3px); }
-  30%  { transform: scale(1.05) translateY(-5px); }
-  50%  { transform: scale(1.03) translateY(-3px); }
-  70%  { transform: scale(1.04) translateY(-4px); }
-  100% { transform: scale(1.03) translateY(-3px); }
-}
-
 /* MODAL IMAGE: 80% of viewport for desktop/tablet */
 .modal {
   display: none;
@@ -384,10 +338,10 @@ body.dark {
 <!-- PRODUCT LIST -->
 <div class="product-list-container">
   <div class="products" id="product-list">
-    <div class="product" data-id="6-Hook" data-category="bathroom accessories" data-name="Hooks">
+    <div class="product" data-id="6-Hook" data-category="bathroom accessories" data-name="6-Hook">
       <img src="6-Hook.jpg" alt="6-Hook" onclick="openModal(this)">
       <div>6-Hook</div>
-      <div class="price">KSh 1000</div>
+      <div class="price">KSh 1200</div>
       <button type="button" class="cart" onclick="orderNow('6-Hook')">Add to Cart</button>
     </div>
  <div class="product" data-id="bathroom accessory" data-category="bathroom accessories" data-name="Bathroom Accessory">
@@ -432,7 +386,7 @@ body.dark {
       <div class="price">KSh 2200</div>
       <button type="button" class="cart" onclick="orderNow('Bathroom Accessory Small')">Add to Cart</button>
     </div>  
-<div class="product" data-id="brasstap" data-category="Plumbing" data-name="Brass Tap">
+    <div class="product" data-id="brasstap" data-category="Plumbing" data-name="Brass Tap">
       <img src="Lincy-brass-lock-900-300x300.jpg" alt="Brass Tap" onclick="openModal(this)">
       <div>Brass Tap</div>
       <div class="price">KSh 500</div>
@@ -833,10 +787,6 @@ document.querySelectorAll('.category-filter').forEach(btn => {
 
 // Show first page on load
 showProductsPage(1);
-<script>
-document.querySelectorAll('.product img').forEach((img, index) => {
-  img.style.animationDelay = `${index * 0.1}s`;
-});
 </script>
 </body>
 </html>
