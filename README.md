@@ -355,6 +355,36 @@ body.dark {
       <div>Bathroom accessory big black and gold</div>
       <div class="price">KSh 4800</div>
       <button type="button" class="cart" onclick="orderNow('bathroom accessory')">Add to Cart</button>
+    </div>
+ <div class="product" data-id="Bathroom accessory big maat black" data-category="bathroom accessories" data-name="Bathroom accessory big maat black">
+      <img src="Bathroom accessory big maat black.jpeg" alt="Bathroom accessory big maat black" onclick="openModal(this)">
+      <div>Bathroom accessory big black and gold</div>
+      <div class="price">KSh 4800</div>
+      <button type="button" class="cart" onclick="orderNow('Bathroom accessory big maat black')">Add to Cart</button>
+    </div>
+  <div class="product" data-id="Bathroom Accessory Black" data-category="bathroom accessories" data-name="Bathroom Accessory Black">
+      <img src="Bathroom Accessory Black.jpeg" alt="Bathroom Accessory Black" onclick="openModal(this)">
+      <div>Bathroom Accessory Black</div>
+      <div class="price">KSh 4200</div>
+      <button type="button" class="cart" onclick="orderNow('Bathroom Accessory Black')">Add to Cart</button>
+    </div>
+ <div class="product" data-id="Bathroom accessory chrome" data-category="bathroom accessories" data-name="Bathroom accessory chrome">
+      <img src="Bathroom accessory chrome.jpeg" alt="Bathroom accessory chrome" onclick="openModal(this)">
+      <div>Bathroom accessory chrome</div>
+      <div class="price">KSh 4300</div>
+      <button type="button" class="cart" onclick="orderNow('Bathroom accessory chrome')">Add to Cart</button>
+    </div>
+ <div class="product" data-id="Bathroom Accessory Executive" data-category="bathroom accessories" data-name="Bathroom Accessory Executive">
+      <img src="Bathroom Accessory Executive.jpeg" alt="Bathroom Accessory Executive" onclick="openModal(this)">
+      <div>Bathroom accessory chrome</div>
+      <div class="price">KSh 5800</div>
+      <button type="button" class="cart" onclick="orderNow('Bathroom Accessory Executive')">Add to Cart</button>
+    </div>
+ <div class="product" data-id="Bathroom Accessory Small" data-category="bathroom accessories" data-name="Bathroom Accessory Small">
+      <img src="Bathroom Accessory Small.jpeg" alt="Bathroom Accessory Small" onclick="openModal(this)">
+      <div>Bathroom accessory chrome</div>
+      <div class="price">KSh 2200</div>
+      <button type="button" class="cart" onclick="orderNow('Bathroom Accessory Small')">Add to Cart</button>
     </div>  
 <div class="product" data-id="brasstap" data-category="Plumbing" data-name="Brass Tap">
       <img src="Lincy-brass-lock-900-300x300.jpg" alt="Brass Tap" onclick="openModal(this)">
