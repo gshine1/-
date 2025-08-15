@@ -338,13 +338,19 @@ body.dark {
 <!-- PRODUCT LIST -->
 <div class="product-list-container">
   <div class="products" id="product-list">
-    <div class="product" data-id="6-Hook" data-category="bathroom accessories" data-name="6-Hook">
+    <div class="product" data-id="6-Hook" data-category="bathroom accessories" data-name="Hooks">
       <img src="6-Hook.jpg" alt="6-Hook" onclick="openModal(this)">
       <div>6-Hook</div>
       <div class="price">KSh 1200</div>
       <button type="button" class="cart" onclick="orderNow('6-Hook')">Add to Cart</button>
     </div>
-    <div class="product" data-id="brasstap" data-category="Plumbing" data-name="Brass Tap">
+ <div class="product" data-id="bathroom accessory" data-category="bathroom accessories" data-name="Bathroom Accessory">
+      <img src="bathroom accessory.jpg" alt="bathroom accessory" onclick="openModal(this)">
+      <div>bathroom accessory</div>
+      <div class="price">KSh 2500</div>
+      <button type="button" class="cart" onclick="orderNow('bathroom accessory')">Add to Cart</button>
+    </div>  
+<div class="product" data-id="brasstap" data-category="Plumbing" data-name="Brass Tap">
       <img src="Lincy-brass-lock-900-300x300.jpg" alt="Brass Tap" onclick="openModal(this)">
       <div>Brass Tap</div>
       <div class="price">KSh 500</div>
