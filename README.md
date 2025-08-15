@@ -294,7 +294,7 @@ body.dark {
 <div class="product-list-container">
   <div class="products" id="product-list">
     <!-- Use unique data-id for each product -->
-    <div class="product" data-id="pipe4gb" data-category="bathroom accessories" data-name="6-Hook">
+    <div class="product" data-id="6-Hook" data-category="bathroom accessories" data-name="6-Hook">
       <img src="6-Hook.jpg" alt="6-Hook">
       <div>6-Hook</div>
       <div class="price">KSh 1200</div>
