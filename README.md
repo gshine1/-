@@ -97,7 +97,7 @@ h1 {margin: 0; font-size: 2rem; padding: 0.5rem;}
   margin-top: 1em;
 }
 .product {
-  width: 300px; /* Enlarges the product card for bigger images */
+  width: 340px; /* Enlarges the product card for bigger images */
   background: var(--cart-bg);
   color: var(--cart-text);
   border-radius: 8px;
