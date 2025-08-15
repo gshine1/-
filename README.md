@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -294,7 +294,7 @@ body.dark {
 <div class="product-list-container">
   <div class="products" id="product-list">
     <!-- Use unique data-id for each product -->
-    <div class="product" data-id="pipe4gb" data-category="Plumbing" data-name="Waste Pipe 4&quot; (GB) Heavy">
+    <div class="product" data-id="pipe4gb" data-category="Plumbing" data-name="pvc pipe4">
       <img src="https://raw.githubusercontent.com/Amuya12/bannerimage/main/WASTE_PIPE_4__(GB)_HEAVY%5B1%5D.jpeg" alt="Waste Pipe 4&quot;" onclick="openModal(this)">
       <div>Waste Pipe 4" (GB) Heavy</div>
       <div class="price">KSh 1200</div>
